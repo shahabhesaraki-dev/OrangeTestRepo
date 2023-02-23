@@ -164,7 +164,7 @@ const AnswerBox = styled.div`
   align-items: center;
   width: 50%;
   min-height: 100px;
-  background-color: #9a05bf;
+  background-color: #8F6BD4;
   border-radius: 30px;
   border: 2px solid black;
 `;
