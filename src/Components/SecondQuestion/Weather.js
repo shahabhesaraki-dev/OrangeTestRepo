@@ -142,6 +142,7 @@ const Button = styled.button`
   border-radius: 10px;
   border: none;
   background-color: blueviolet;
+  color: white;
   margin-top: 5px;
   font-size: 17px;
   font-weight: bold;

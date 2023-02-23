@@ -6,6 +6,7 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <Section>
+      <Title>Orange Digital Test</Title>
       <Wrapper>
         <AnswerBox
           onClick={() => {
@@ -28,6 +29,7 @@ const Home = () => {
 
 const Section = styled.div`
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   background-color: #d2d0cc;
@@ -41,6 +43,12 @@ const Wrapper = styled.div`
   align-items: center;
   width: 50%;
   height: 50%;
+`;
+
+const Title = styled.h1`
+  color: Black;
+  font-size: 60px;
+  font-family: "Abel";
 `;
 
 const AnswerBox = styled.div`
