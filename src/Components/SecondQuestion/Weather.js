@@ -14,7 +14,7 @@ const Weather = () => {
 
   const checkHandler = () => {
     Keys.forEach((item) => {
-      if (country === item) {
+      if (country.replace(/^./, country[0].toUpperCase()) === item) {
         setDetails(weather[`${item}`]);
         localStorage.setItem("Details", JSON.stringify(weather[`${item}`]));
         localStorage.setItem("CityName", item);
